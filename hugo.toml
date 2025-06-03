@@ -3,6 +3,21 @@ languageCode = 'en-us'
 title = 'CoC Guides'
 theme = 'hugo-book'
 
+[markup.goldmark]
+  [markup.goldmark.extensions]
+    linkify = false
+
+[caches]
+  [caches.images]
+    ir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true  
+
+[markup.tableOfContents]
+  startLevel = 1
+
 [params]
   # Book configuration
   disablePathToLower = true
@@ -44,7 +59,7 @@ theme = 'hugo-book'
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/main'
+  BookEditPath = 'edit/main/docs'
 
   # Configure the date format used on the pages
   # - In git information
@@ -56,16 +71,3 @@ theme = 'hugo-book'
   # Configuration for indexing can be adjusted in i18n folder per language.
   BookSearch = false
 
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-        linkify = false
-  [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
-
-  [markup]
-  [markup.goldmark.renderer]
-  unsafe = true  
-
-  [markup.tableOfContents]
-  startLevel = 1

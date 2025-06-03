@@ -4,6 +4,8 @@ title = 'CoC Guides'
 theme = 'hugo-book'
 
 [params]
+  # Book configuration
+  disablePathToLower = true
   enableGitInfo = true
 
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -37,7 +39,7 @@ theme = 'hugo-book'
   # Requires 'BookRepo' param.
   # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
   # Github uses 'commit', Bitbucket uses 'commits'
-  BookCommitPath = 'commit'
+  # BookCommitPath = 'commit'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
@@ -60,3 +62,10 @@ theme = 'hugo-book'
   [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+  [markup]
+  [markup.goldmark.renderer]
+  unsafe = true  
+
+  [markup.tableOfContents]
+  startLevel = 1

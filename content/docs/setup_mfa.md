@@ -28,7 +28,7 @@ Be certain to download the app with an icon similar to the one below.
 
 {{< rawhtml >}}
   <p>
-    <img src="../images/auth.webp" style="width:25%">
+    <img src="../../images/auth.webp" style="width:25%">
   </p>
 {{< /rawhtml >}}
 
@@ -49,7 +49,7 @@ On your desktop computer browse to either of the following:
 
 <mark>*Domain credentials are in **firstname.lastname@cityofchicago.org** format. Using the numerical person ID is not supported in this login scenario.</mark>
 
-![](../images/image010.png)
+![](../../images/image010.png)
 
 Enter your City of Chicago domain credential password* into the Microsoft Sign-In Screen and click Sign In.<br>
 <mark>*This password will be the same as your password you use with your numerical person ID account, only the username format changes as detailed in the prior step.</mark>
@@ -82,11 +82,11 @@ Have your mobile device ready with the Microsoft Authenticator App opened. On th
 3. Click the **Scan QR code** option. *Approve any pop ups requesting camera permission on your mobile device.
 4. The camera will open to scan a QR code and you can proceed to the next step.
 
-![](/images/image020.png)
+![](../../images/image020.png)
 
 Use the Microsoft Authenticator Apps camera from the prior step to scan the QR code on your screen. After you scan the QR code the Microsoft Authenticator Apps camera will close and you can click **Next.**
 
-![](/images/image022.png)
+![](../../images/image022.png)
 
 On the next screen you will perform a number matching test to complete the registration.
 
@@ -95,18 +95,18 @@ On your desktop screen there will be a two-digit number, in the sample screensho
 
 
 On your **mobile device** screen enter the number that is shown on your desktop screen and click **Yes.**
-![](/images/image024.png)
+![](../../images/image024.png)
 
 If the steps were performed correctly, you should see the below screen*. Click Next.
 
 
 *If not, you will need to restart the process or follow the instructions on the next screen.
 
-![](/images/image026.png)
+![](../../images/image026.png)
 
 The following page will have you register a second method of authentication. You can use your mobile phone number or a personal email as the second method.
 
-![](/images/image028.png)
+![](../../images/image028.png)
 
 ## Phone Number Setup
 
@@ -114,7 +114,7 @@ The following page will have you register a second method of authentication. You
 2. You will receive a text at the number provided with a 6-digit code. Enter the code in the field and clock **Next.**
 3. If done correctly you will see a Success screen. Click **Done** and you have finished the setup.
 
-![](/images/image030.png)
+![](../../images/image030.png)
 
 ## Email Setup for Backup Purposes:
 

@@ -1,6 +1,7 @@
 ---
 title: Get Started
 type: docs
+bookToC = false
 ---
 
 # Welcome to CoC Guides

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Setting up Multi-Factor Authentication (MFA)
+  #
+
+Audience : All remote users who have not set up Multi-factor Authentication (MFA) for city access.
+
+  MFA Definition
+  #
+
+The City uses multifactor authentication (MFA) to establish confidence in person&rsquo;s electronic identity when attempting to access City computer resources from outside the City&rsquo;s networks.  Using Microsoft&rsquo;s Authenticator App is the only supported MFA method.  Using MS Authenticator has no extra charge for push notifications to the owner of the mobile phone.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/with-toc/">
+  <meta property="og:site_name" content="CoC Guides">
+  <meta property="og:title" content="Setting up Multi-Factor Authentication (MFA)">
+  <meta property="og:description" content="Setting up Multi-Factor Authentication (MFA)#Audience : All remote users who have not set up Multi-factor Authentication (MFA) for city access.
+MFA Definition#The City uses multifactor authentication (MFA) to establish confidence in person’s electronic identity when attempting to access City computer resources from outside the City’s networks. Using Microsoft’s Authenticator App is the only supported MFA method. Using MS Authenticator has no extra charge for push notifications to the owner of the mobile phone.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Setting up Multi-Factor Authentication (MFA) | CoC Guides</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/with-toc/">
+<link rel="stylesheet" href="/book.min.d5e59cb0aa8d22a5813c62cd5e25d3d172489a369c61dc3f622ee96ae1ebb457.css" integrity="sha256-1eWcsKqNIqWBPGLNXiXT0XJImjacYdw/Yi7pauHrtFc=" crossorigin="anonymous"><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>CoC Guides</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/with-toc/" class="active">Setting up Multi-Factor Authentication (MFA)</a>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Example</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/" class="">Table of Contents</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a1be4d97c314149f0ef5699905baf3b8" class="toggle"  />
+    <label for="section-a1be4d97c314149f0ef5699905baf3b8" class="flex">
+      <a role="button" class="flex-auto ">Collapsed</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Shortcodes</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/katex/" class="">KaTeX</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Setting up Multi-Factor Authentication (MFA)</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#mfa-definition">MFA Definition</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#sign-in">Sign In</a></li>
+    <li><a href="#mfa-registration-workflow">MFA Registration Workflow</a></li>
+    <li><a href="#phone-number-setup">Phone Number Setup</a></li>
+    <li><a href="#email-setup-for-backup-purposes">Email Setup for Backup Purposes:</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="setting-up-multi-factor-authentication-mfa">
+  Setting up Multi-Factor Authentication (MFA)
+  <a class="anchor" href="#setting-up-multi-factor-authentication-mfa">#</a>
+</h1>
+<p><strong>Audience</strong> : All remote users who have not set up Multi-factor Authentication (MFA) for city access.</p>
+<h2 id="mfa-definition">
+  MFA Definition
+  <a class="anchor" href="#mfa-definition">#</a>
+</h2>
+<p>The City uses multifactor authentication (MFA) to establish confidence in person&rsquo;s electronic identity when attempting to access City computer resources from outside the City&rsquo;s networks.  Using Microsoft&rsquo;s Authenticator App is the only supported MFA method.  Using MS Authenticator has no extra charge for push notifications to the owner of the mobile phone.</p>
+<p>MFA requires three elements or factors:</p>
+<ol>
+<li>Using something to uniquely identify yourself as someone authorized to access the City of Chicago’s resources.  The City&rsquo;s unique identifier is an Active Directory (AD) account in the format <strong><a href="mailto:First_Name.Last_Name@cityofchicago.org">First_Name.Last_Name@cityofchicago.org</a></strong></li>
+<li>Something only you know to prove who you are (your network domain password)</li>
+<li>Something only you have to prove who you are (a temporary MFA personal identification number (PIN)</li>
+</ol>
+<h2 id="prerequisites">
+  Prerequisites
+  <a class="anchor" href="#prerequisites">#</a>
+</h2>
+<p>Download and install The Microsoft Authenticator App on your phone.For Android-based devices, go to the Google Play Store on your phone.</p>
+<p>For iOS-based devices, go to the Apple App Store on your phone.In the store, search for &ldquo;Microsoft Authenticator&rdquo;.</p>
+<p>Be certain to download the app with an icon similar to the one below.</p>
+
+
+  <p>
+    <img src="/images/auth.webp" style="width:25%">
+  </p>
+
+<p>Follow the steps on your phone to install the App:</p>
+<ul>
+<li><!-- raw HTML omitted -->Note:<!-- raw HTML omitted --> Multiple City and non-City MFA PINs can be stored within the Microsoft Authenticator mobile app. If you already use the app with another organization, you do not need to load it again.</li>
+<li>Be careful to only download the official Microsoft Authenticator app (and not simply what your app store promotes at the top of the search results).  The Microsoft Authenticator mobile app icon will look like this:</li>
+<li>Once you have the App on your phone, click NEST on the More Information Required screen that is shown above.</li>
+<li><!-- raw HTML omitted -->Note:<!-- raw HTML omitted -->Multiple City and non-City MFA PINs can be stored within the Microsoft Authenticator mobile app.</li>
+</ul>
+<h2 id="sign-in">
+  Sign In
+  <a class="anchor" href="#sign-in">#</a>
+</h2>
+<p>On your desktop computer browse to either of the following:</p>
+<ul>
+<li>myapps.microsoft.com</li>
+<li>login.microsoft.com</li>
+<li>portal.cityofchicago.org  – and use your City of Chicago domain credentials* to sign into the Microsoft Sign-In Screen below and click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted --></li>
+</ul>
+<p><!-- raw HTML omitted -->*Domain credentials are in <a href="mailto:firstname.lastname@cityofchicago.org">firstname.lastname@cityofchicago.org</a> format. Using the numerical person ID is not supported in this login scenario.<!-- raw HTML omitted --></p>
+<p><img src="/images/image010.png" alt="" /></p>
+<p>Enter your City of Chicago domain credential password* into the Microsoft Sign-In Screen and click Sign In.<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->*This password will be the same as your password you use with your numerical person ID account, only the username format changes as detailed in the prior step.<!-- raw HTML omitted -->
+<img src="/images/image012.png" alt="" /></p>
+<p>After credentials are entered you will be prompted with the following screen stating you need more information to keep your account secure. Click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted -->
+<img src="//mfaguide%5cassets%5cimages%5cimage014.png" alt="" /></p>
+<p>On the next screen will be the MFA registration workflow. if you already have the Microsoft Authenticator App installed on your mobile device, Click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->If you have not installed the Microsoft Authenticator App on your phone, please refer to the <a href="#prereq">prerequisites</a>at the top of this document for instructions on how to get the Microsoft Authenticator App and install it as you would any other App.<!-- raw HTML omitted --></p>
+<h2 id="mfa-registration-workflow">
+  MFA Registration Workflow
+  <a class="anchor" href="#mfa-registration-workflow">#</a>
+</h2>
+<p><!-- raw HTML omitted -->Please refer to the <a href="#prereq">prerequisites</a>at the top of the page for instructions on how to get the Microsoft Authenticator App.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<img src="..%5cmfaguide%5cassets%5cimages%5cimage016.png" alt="" /><!-- raw HTML omitted -->
+Have your mobile device ready with the Microsoft Authenticator App opened. On the More Information Required screen on your PC, Click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted -->
+<img src="..%5cmfaguide%5cassets%5cimages%5cimage018.png" alt="" /></p>
+<p><!-- raw HTML omitted -->The Next steps are performed from the mobile device that you have the Microsoft Authenticator App installed on.<!-- raw HTML omitted --></p>
+<ol>
+<li>If it isn&rsquo;t open already, open the Microsoft Authenticator App on your mobile device and click the + icon in the top right corner.</li>
+<li>Click the <!-- raw HTML omitted -->Work or school account<!-- raw HTML omitted --> option on the following page.</li>
+<li>Click the <!-- raw HTML omitted -->Scan QR code<!-- raw HTML omitted --> option. *Approve any pop ups requesting camera permission on your mobile device.</li>
+<li>The camera will open to scan a QR code and you can proceed to the next step.</li>
+</ol>
+<p><img src="..%5cmfaguide%5cassets%5cimages%5cimage020.png" alt="" /></p>
+<p>Use the Microsoft Authenticator Apps camera from the prior step to scan the QR code on your screen. After you scan the QR code the Microsoft Authenticator Apps camera will close and you can click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted -->
+<img src="..%5cmfaguide%5cassets%5cimages%5cimage022.png" alt="" /></p>
+<p>On the next screen you will perform a number matching test to complete the registration.<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<p>On your desktop screen there will be a two-digit number, in the sample screenshot below that number is 16.<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<p>On your <!-- raw HTML omitted -->mobile device<!-- raw HTML omitted --> screen enter the number that is shown on your desktop screen and click <!-- raw HTML omitted -->Yes.<!-- raw HTML omitted -->
+<img src="..%5cmfaguide%5cassets%5cimages%5cimage024.png" alt="" /></p>
+<p>If the steps were performed correctly, you should see the below screen*. Click Next.<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<p>*If not, you will need to restart the process or follow the instructions on the next screen
+<img src="..%5cmfaguide%5cassets%5cimages%5cimage026.png" alt="" /></p>
+<p>The following page will have you register a second method of authentication. You can use your mobile phone number or a personal email as the second method.
+<img src="..%5cmfaguide%5cassets%5cimages%5cimage028.png" alt="" /></p>
+<h2 id="phone-number-setup">
+  Phone Number Setup
+  <a class="anchor" href="#phone-number-setup">#</a>
+</h2>
+<ol>
+<li>Enter your 10-digit phone number starting with the area code in the phone number field and click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted --></li>
+<li>You will receive a text at the number provided with a 6-digit code. Enter the code in the field and clock <!-- raw HTML omitted -->Next.<!-- raw HTML omitted --></li>
+<li>If done correctly you will see a Success screen. Click <!-- raw HTML omitted -->Done<!-- raw HTML omitted --> and you have finished the setup.</li>
+</ol>
+<p><img src="..%5cmfaguide%5cassets%5cimages%5cimage030.png" alt="" /></p>
+<h2 id="email-setup-for-backup-purposes">
+  Email Setup for Backup Purposes:
+  <a class="anchor" href="#email-setup-for-backup-purposes">#</a>
+</h2>
+<ol>
+<li>Click <!-- raw HTML omitted -->I want to set up a different method<!-- raw HTML omitted --></li>
+<li>Select <!-- raw HTML omitted -->email<!-- raw HTML omitted --> from the drop down and click <!-- raw HTML omitted -->Confirm<!-- raw HTML omitted --></li>
+<li>Enter in the email you want to use. *This cannot be your cityofchicago.org email. Click <!-- raw HTML omitted -->Next<!-- raw HTML omitted --></li>
+<li>Check the inbox for the email you entered. You will have an email with a 6-digit code from an @microsoftonline.com email address. Enter the code in the field and click <!-- raw HTML omitted -->Next.<!-- raw HTML omitted --></li>
+<li>If done correctly you will see a Success screen. Click <!-- raw HTML omitted -->Done<!-- raw HTML omitted --> and you have finished the setup.</li>
+</ol>
+<!-- raw HTML omitted -->
+<p>You have now set up your mobile phone to receive temporary MFA PINs via the Microsoft Authenticator app.  You will need an MFA PIN each time you remotely login to the City&rsquo;s networks.</p>
+<p>Please contact the IT Service Center at 312-744-3282 (4DATA) if you need additional assistance.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/with-toc.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#mfa-definition">MFA Definition</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#sign-in">Sign In</a></li>
+    <li><a href="#mfa-registration-workflow">MFA Registration Workflow</a></li>
+    <li><a href="#phone-number-setup">Phone Number Setup</a></li>
+    <li><a href="#email-setup-for-backup-purposes">Email Setup for Backup Purposes:</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

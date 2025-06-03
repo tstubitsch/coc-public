@@ -28,7 +28,7 @@ Be certain to download the app with an icon similar to the one below.
 
 {{< rawhtml >}}
   <p>
-    <img src="images/auth.webp" style="width:25%">
+    <img src="static/images/auth.webp" style="width:25%">
   </p>
 {{< /rawhtml >}}
 

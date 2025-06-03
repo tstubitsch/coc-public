@@ -28,7 +28,7 @@ Be certain to download the app with an icon similar to the one below.
 
 {{< rawhtml >}}
   <p>
-    <img src="https://tstubitsch.github.io/coc-public/static/images/auth.webp" style="width:25%">
+    <img src="images/auth.webp" style="width:25%">
   </p>
 {{< /rawhtml >}}
 
@@ -49,7 +49,7 @@ On your desktop computer browse to either of the following:
 
 <mark>*Domain credentials are in **firstname.lastname@cityofchicago.org** format. Using the numerical person ID is not supported in this login scenario.</mark>
 
-![](https://tstubitsch.github.io/coc-public/static/images/image010.png)
+![](images/image010.png)
 
 Enter your City of Chicago domain credential password* into the Microsoft Sign-In Screen and click Sign In.<br>
 <mark>*This password will be the same as your password you use with your numerical person ID account, only the username format changes as detailed in the prior step.</mark>

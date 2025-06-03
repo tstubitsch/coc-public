@@ -53,10 +53,10 @@ On your desktop computer browse to either of the following:
 
 Enter your City of Chicago domain credential password* into the Microsoft Sign-In Screen and click Sign In.<br>
 <mark>*This password will be the same as your password you use with your numerical person ID account, only the username format changes as detailed in the prior step.</mark>
-![](/images/image012.png)
+![](../../images/image012.png)
 
 After credentials are entered you will be prompted with the following screen stating you need more information to keep your account secure. Click **Next.**
-![](/images/image014.png)
+![](../../images/image014.png)
 
 On the next screen will be the MFA registration workflow. if you already have the Microsoft Authenticator App installed on your mobile device, Click **Next.**
 {{< rawhtml >}}<mark>If you have not installed the Microsoft Authenticator App on your phone, please refer to the <a href="#prerequisites">prerequisites</a> at the top of this document for instructions on how to get the Microsoft Authenticator App and install it as you would any other App.</mark>

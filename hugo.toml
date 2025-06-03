@@ -55,3 +55,6 @@ theme = 'hugo-book'
   [markup.goldmark]
     [markup.goldmark.extensions]
         linkify = false
+  [caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -3,26 +3,27 @@ languageCode = 'en-us'
 title = 'CoC Guides'
 theme = 'hugo-book'
 
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
 [markup.goldmark]
   [markup.goldmark.extensions]
     linkify = false
 
 [caches]
   [caches.images]
-    ir = ':cacheDir/images'
-
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true  
+    dir = ':cacheDir/images'
 
 [markup.tableOfContents]
   startLevel = 1
 
 [params]
-  # Book configuration
-  disablePathToLower = true
-  enableGitInfo = true
-
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'light'
